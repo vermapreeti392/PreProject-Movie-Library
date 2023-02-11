@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="allInputs">
+            <div class="input">
+                Title  <input type="text" id="title" class="inp" placeholder="Enter movie titlle" >
+              </div><br>
+              <div class="input">
+                Genre  <input type="text" id="genre" class="inp" placeholder="Enter movie genre">
+              </div><br>
+              <div class="input">
+                  <select name="dropList" id="dropList" class="inp">
+                      <option value="">select option</option>
+                      <option value="title">Title</option>
+                      <option value="genre">Genre</option>
+                      <option value="both">Both</option>
+                  </select>
+              </div>
+        </div>
+        <div class="allBtn">            
+                <button id="search" class="btn">Search</button>
+                <button id="sorting by title" class="btn">Sort by title</button>
+                <button id="sorting by genre" class="btn">Sort by genre</button>                     
+        </div>
+        <ul id="results"></ul>   
+        <ul id="counts"></ul>
+    </div>
+    <script src="./script.js"></script> 
+</body>
+</html>

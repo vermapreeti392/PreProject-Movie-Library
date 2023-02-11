@@ -1,0 +1,36 @@
+body{
+    background-color: darkslategrey
+
+}
+.main{    
+    margin: auto;
+    width: 50%;
+}
+.allInputs{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.main > ul{
+    list-style: none;
+    color: white;
+}
+.input{
+    margin: 10px;
+    color: white;
+}
+.inp{
+    padding: 5px;
+    outline: none;
+    border: 2px solid rgb(211, 57, 108);
+    border-radius: 5px;
+    
+}
+.allBtn{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.btn{
+    border: 2px solid rgb(159, 48, 85);
+    padding: 2px 7px;
+}
